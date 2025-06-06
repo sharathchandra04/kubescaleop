@@ -13,7 +13,6 @@ venv.bak/
 .DS_Store
 *.log
 *.pid
-*.yaml
 """
 
 with open(".gitignore", "w") as f:

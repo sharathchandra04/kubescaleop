@@ -1,0 +1,6 @@
+apiVersion: myapps.example.com/v1
+kind: MyDeployment
+metadata:
+  name: nginx-example
+spec:
+  replicas: 1
