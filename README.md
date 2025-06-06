@@ -23,6 +23,8 @@ docker push sharathchandra04/sharathchandra04:nginx-operator
 git clone https://github.com/sharathchandra04/kubescaleop.git
 cd kubescaleop
 
+kubectl apply -f role.yaml
+kubectl apply -f binding.yaml
 
 kubectl apply -f crd.yaml
 kubectl apply -f operator_deploy.yaml
