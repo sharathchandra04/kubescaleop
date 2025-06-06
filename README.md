@@ -36,3 +36,4 @@ kubectl apply -f mydeployment_cr.yaml ---> cr file
 
 
 
+
