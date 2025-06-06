@@ -8,7 +8,7 @@ NAMESPACE = "default"
 
 @kopf.on.startup()
 def configure(settings: kopf.OperatorSettings, **_):
-    settings.posting.level = 'INFO'
+    # settings.posting.level = 'INFO'
     settings.watching.server_timeout = 60
     settings.watching.client_timeout = 120
 
