@@ -25,11 +25,11 @@ cd kubescaleop
 
 
 kubectl apply -f crd.yaml
-kubectl apply -f operator-deploy.yaml
+kubectl apply -f operator_deploy.yaml
 kubectl get pods
 kubectl logs -f <nginx-operator-pod-name>
 
-kubectl apply -f myapp.yaml ---> cr file
+kubectl apply -f mydeployment_cr.yaml ---> cr file
 
 
 
